@@ -1,0 +1,7 @@
+1) The difference between var and let is that var is function, whereas let is block scoped. With var, you can redeclare the same variable multiple times, however with let, once you declare a variable, you cannot redeclare it, however you can reassign the value of that variable with both let and var.
+
+2) The difference between var and const is that var has a function scope and const has block scope. var can be redeclared and reassigned, whereas with const, once the variable is declared, you cannot redeclare or reassign values to that variable.
+
+3) The difference between let and const is that let can be reassigned after being declared, wheras const variable cannot be reassigned after being declared. It is possible to initialize variables using let without declaring them, however const requires that every new variable declaration includes the values (and does not allow just a variable initialization) They both operate with block scope, and they both allow the content of data structures like arrays to be mutated. 
+
+4) Hoisting is when the order in which the javascipt interpreter runs the code,hoists up the  initialized/declared variables first with var variable declarations, and then run the code declared inside the assigned variables, functions and code block later on. Variables are not hoisted with let and const, rather the code is run in the order it was written. 
